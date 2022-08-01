@@ -1,0 +1,16 @@
+# ignore everything but
+#  .vimrc,
+#  files under .vim/rc,
+#  .zshrc
+#  .zprofile
+# and
+#  .gitignore
+/*
+!/.*
+.CFUserTextEncoding
+.DS_Store
+.bash_history
+.lesshst
+.viminfo
+.zsh_history
+.zsh_sessions/
