@@ -4,11 +4,15 @@
 .DS_Store
 .bash_history
 .lesshst
+.zcompdump
+.zsh_history
+.ghtoken.env
 .viminfo
 .vim/*
 !.vim/rc
-.zsh_history
-.ghtoken.env
 .zsh_sessions/
 .cargo/
 .rustup/
+.node_repl_history
+.npm/
+.nvm/
