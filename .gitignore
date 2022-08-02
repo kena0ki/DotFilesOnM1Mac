@@ -18,3 +18,5 @@
 .nvm/
 .ssh/
 .local/
+.vscode/
+.config/
