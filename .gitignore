@@ -1,10 +1,3 @@
-# ignore everything but
-#  .vimrc,
-#  files under .vim/rc,
-#  .zshrc
-#  .zprofile
-# and
-#  .gitignore
 /*
 !/.*
 .CFUserTextEncoding
@@ -12,7 +5,10 @@
 .bash_history
 .lesshst
 .viminfo
+.vim/*
+!.vim/rc
 .zsh_history
+.ghtoken.env
 .zsh_sessions/
 .cargo/
 .rustup/
