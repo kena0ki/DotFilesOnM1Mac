@@ -10,4 +10,4 @@ export NVM_DIR="$HOME/.nvm"
 # export PATH="~/.local/bin:$PATH"
 
 # Prompt
-PS1="%T %~ %#"
+PS1="🍆%T %~ %#"
