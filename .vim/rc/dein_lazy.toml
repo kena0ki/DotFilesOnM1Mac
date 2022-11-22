@@ -1,18 +1,8 @@
 
-## Rust
-#[[plugins]]
-#repo = 'rust-lang/rust.vim'
-#on_ft = ['rust']
-
 # Golang
 [[plugins]]
 repo = 'fatih/vim-go'
 on_ft = ['go']
-
-# # view for scroll (this is too slow in large file)
-# [[plugins]]
-# repo = 'wellle/context.vim'
-# on_ft = ['javascript', 'typescript']
 
 # Json Syntax
 [[plugins]]
@@ -38,11 +28,6 @@ on_ft = ['typescript']
 [[plugins]]
 repo = 'MaxMEllon/vim-jsx-pretty'
 on_ft = ['javascript', 'typescript']
-
-## Graphql Syntax
-#[[plugins]]
-#repo = 'jparise/vim-graphql'
-#on_ft = ['javascript','graphql']
 
 # LSP related
 [[plugins]]
@@ -132,17 +117,3 @@ highlight link CocHintHighlight SpellCap
 highlight link CocInfoHighlight SpellCap
 '''
 
-## Runner
-#[[plugins]]
-#repo = 'thinca/vim-quickrun'
-#on_ft = ['javascript']
-
-## Explorer
-#[[plugins]]
-#repo = 'junegunn/fzf'
-#build = './install --all'
-#merged = 0
-#[[plugins]]
-#repo = 'junegunn/fzf.vim'
-#depends = 'fzf'
-#on_cmd = ['FZF']
