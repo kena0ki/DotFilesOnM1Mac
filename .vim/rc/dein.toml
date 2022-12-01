@@ -2,6 +2,10 @@
 [[plugins]]
 repo = 'Shougo/dein.vim'
 
+## EditorConfig
+#[[plugins]]
+#repo = 'editorconfig/editorconfig-vim'
+
 ## Git integration
 #[[plugins]]
 #repo = 'tpope/vim-fugitive'
