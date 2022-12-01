@@ -20,3 +20,7 @@
 .local/
 .vscode/
 .config/
+.matplotlib/
+.python_history
+.thumbnails/
+.visdom/
