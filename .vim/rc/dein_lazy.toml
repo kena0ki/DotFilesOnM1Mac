@@ -27,7 +27,7 @@ on_ft = ['typescript']
 # JSX TSX Syntax
 [[plugins]]
 repo = 'MaxMEllon/vim-jsx-pretty'
-on_ft = ['javascript', 'typescript']
+on_ft = ['javascript', 'typescript', 'javascriptreact', 'typescriptreact']
 
 # LSP related
 [[plugins]]
@@ -35,8 +35,12 @@ repo = 'dense-analysis/ale'
 on_ft = [
   'javascript',
   'typescript',
+  'javascriptreact',
+  'typescriptreact',
   'html',
   'vue',
+  'css',
+  'scss',
   #'rust',
 ]
 hook_source = '''
@@ -62,6 +66,8 @@ hook_source = '''
     \   'javascript': ['eslint'],
     \   'typescript': ['eslint'],
     \   'vue': ['eslint'],
+    \   'css': ['stylelint'],
+    \   'scss': ['stylelint'],
     \}
 '''
 
