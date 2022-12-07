@@ -10,4 +10,6 @@ export NVM_DIR="$HOME/.nvm"
 # export PATH="~/.local/bin:$PATH"
 
 # Prompt
-PS1="🍆%T %~ %#"
+#  about color: https://stackoverflow.com/a/5592128/12895553
+PS1="%T %~ %F{cyan}%#%f "
+# PS1="🍆%T %~ %#"
